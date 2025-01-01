@@ -10,3 +10,11 @@ function my(event) {
         alert('Selamat Datang di Website Kami');
     }
 }
+function toggleDetails(detailsId) {
+    const details = document.getElementById(detailsId);
+    if (details.classList.contains('hidden')) {
+        details.classList.remove('hidden');
+    } else {
+        details.classList.add('hidden');
+    }
+}

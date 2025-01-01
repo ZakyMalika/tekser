@@ -99,3 +99,57 @@ button{
     height: 100vh;
     background-color: #1fd52b;
 }
+
+/* CSS */
+
+
+.containers {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.profile:last-child {
+    border-bottom: none;
+}
+
+.profile h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.profile p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.profile button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
