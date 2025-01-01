@@ -17,10 +17,7 @@
    
 }
 
-#img img{
-    width: 200px;
 
-}
 
 #img {
     display: flex;
@@ -34,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:  #d51f27;
+    background-color:  #1fd52b;
     border-radius: 0 20px 20px 0px;
 }
 
@@ -81,8 +78,10 @@ button{
     margin-top: 30px;
     padding-left: 10px;
     border-radius: 10px;
-    background-color: #ec4951;
+    background-color: #0b610b;
     color: white;
+    cursor: pointer; /* Pastikan kursor berubah saat di atas tombol */
+    z-index: 1;
 }
 
 .main {
@@ -98,5 +97,5 @@ button{
 .div2 {
     width: 50vw;
     height: 100vh;
-    background-color: #d51f27 ;
+    background-color: #1fd52b;
 }
